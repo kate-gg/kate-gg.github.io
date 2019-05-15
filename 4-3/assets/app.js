@@ -26,7 +26,7 @@ function head_set(data) {
         $.each(item['class'], function(i, item) {
             if(x == break_at){
                 if(breaks == false){
-                    $("#schedule-list").append("<td class='rotate pt-auto align-items-center text-nowrap' rowspan='"+y+"'><div><span>พักเที่ยง</span></div></td>");
+                    $("#schedule-list").append("<td class='rotate pt-auto px-0 align-items-center text-nowrap' rowspan='"+y+"'><div><span>พักเที่ยง</span></div></td>");
                     breaks = true;
                 }
             }
