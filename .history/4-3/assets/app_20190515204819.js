@@ -22,7 +22,7 @@ function head_set(data) {
             return true;
         };
         $("#schedule-list").append("<tr>");
-        $("#schedule-list").append("<td class='text-nowrap'>"+item['th-name']+"</td>");
+        $("#schedule-list").append("<td>"+item['th-name']+"</td>");
         $.each(item['class'], function(i, item) {
             if(x == break_at){
                 if(breaks == false){
@@ -30,7 +30,7 @@ function head_set(data) {
                     breaks = true;
                 }
             }
-            $("#schedule-list").append("<td class='text-nowrap'>"+item['id']+"<br>"+item['room']+"<br>"+item['name']+"</td>");
+            $("#schedule-list").append("<td class=' text-nowrap'>"+item['id']+"<br>"+item['room']+"<br>"+item['name']+"</td>");
             x=x+1;
         });
         $("#schedule-list").append("/<tr>");
