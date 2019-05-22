@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+body{
+    background-image: url(pirate-cat-bg2.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+.ccx{
+    background-color: #ED4C67;
+    border-color: #ED4C67 !important;
+}
